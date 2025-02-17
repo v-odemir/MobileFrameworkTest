@@ -1,0 +1,1323 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "mobileFramework",
+    "printedName": "mobileFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "mobileFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "mobileFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobileSdk",
+        "printedName": "MobileSdk",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobileSdk",
+                "printedName": "mobileFramework.MobileSdk",
+                "usr": "s:15mobileFramework9MobileSdkC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15mobileFramework9MobileSdkCACycfc",
+            "mangledName": "$s15mobileFramework9MobileSdkCACycfc",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getTimeout",
+            "printedName": "getTimeout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15mobileFramework9MobileSdkC10getTimeoutSdyF",
+            "mangledName": "$s15mobileFramework9MobileSdkC10getTimeoutSdyF",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTimeout",
+            "printedName": "setTimeout(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15mobileFramework9MobileSdkC10setTimeoutyySdF",
+            "mangledName": "$s15mobileFramework9MobileSdkC10setTimeoutyySdF",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRetryInterval",
+            "printedName": "getRetryInterval()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15mobileFramework9MobileSdkC16getRetryIntervalSdyF",
+            "mangledName": "$s15mobileFramework9MobileSdkC16getRetryIntervalSdyF",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRetryInterval",
+            "printedName": "setRetryInterval(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15mobileFramework9MobileSdkC16setRetryIntervalyySdF",
+            "mangledName": "$s15mobileFramework9MobileSdkC16setRetryIntervalyySdF",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectionWifi",
+            "printedName": "connectionWifi(countryCode:msisdn:passport:nationalId:marketingPermission:shareDataPermission:storeDataPermission:baseUrl:connectionUrls:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(mobileFramework.WifiConnectionStatus) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WifiConnectionStatus",
+                    "printedName": "mobileFramework.WifiConnectionStatus",
+                    "usr": "s:15mobileFramework20WifiConnectionStatusC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15mobileFramework9MobileSdkC14connectionWifi11countryCode6msisdn8passport10nationalId19marketingPermission09shareDataN005storepN07baseUrl0E4Urls10completionySS_S3SS3bSSSaySSGyAA0F16ConnectionStatusCctF",
+            "mangledName": "$s15mobileFramework9MobileSdkC14connectionWifi11countryCode6msisdn8passport10nationalId19marketingPermission09shareDataN005storepN07baseUrl0E4Urls10completionySS_S3SS3bSSSaySSGyAA0F16ConnectionStatusCctF",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15mobileFramework9MobileSdkC",
+        "mangledName": "$s15mobileFramework9MobileSdkC",
+        "moduleName": "mobileFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "mobileFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "mobileFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WifiConnectionStatus",
+        "printedName": "WifiConnectionStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ERROR_NONE",
+            "printedName": "ERROR_NONE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC10ERROR_NONESivpZ",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC10ERROR_NONESivpZ",
+            "moduleName": "mobileFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15mobileFramework20WifiConnectionStatusC10ERROR_NONESivgZ",
+                "mangledName": "$s15mobileFramework20WifiConnectionStatusC10ERROR_NONESivgZ",
+                "moduleName": "mobileFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_DATA_EMPTY",
+            "printedName": "ERROR_DATA_EMPTY",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC16ERROR_DATA_EMPTYSivpZ",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC16ERROR_DATA_EMPTYSivpZ",
+            "moduleName": "mobileFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15mobileFramework20WifiConnectionStatusC16ERROR_DATA_EMPTYSivgZ",
+                "mangledName": "$s15mobileFramework20WifiConnectionStatusC16ERROR_DATA_EMPTYSivgZ",
+                "moduleName": "mobileFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_REDIRECT_URL_INCORRECT",
+            "printedName": "ERROR_REDIRECT_URL_INCORRECT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC28ERROR_REDIRECT_URL_INCORRECTSivpZ",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC28ERROR_REDIRECT_URL_INCORRECTSivpZ",
+            "moduleName": "mobileFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15mobileFramework20WifiConnectionStatusC28ERROR_REDIRECT_URL_INCORRECTSivgZ",
+                "mangledName": "$s15mobileFramework20WifiConnectionStatusC28ERROR_REDIRECT_URL_INCORRECTSivgZ",
+                "moduleName": "mobileFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_NO_REDIRECTION",
+            "printedName": "ERROR_NO_REDIRECTION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC20ERROR_NO_REDIRECTIONSivpZ",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC20ERROR_NO_REDIRECTIONSivpZ",
+            "moduleName": "mobileFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15mobileFramework20WifiConnectionStatusC20ERROR_NO_REDIRECTIONSivgZ",
+                "mangledName": "$s15mobileFramework20WifiConnectionStatusC20ERROR_NO_REDIRECTIONSivgZ",
+                "moduleName": "mobileFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_CONNECTION_REQUEST_FAILED",
+            "printedName": "ERROR_CONNECTION_REQUEST_FAILED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC31ERROR_CONNECTION_REQUEST_FAILEDSivpZ",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC31ERROR_CONNECTION_REQUEST_FAILEDSivpZ",
+            "moduleName": "mobileFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15mobileFramework20WifiConnectionStatusC31ERROR_CONNECTION_REQUEST_FAILEDSivgZ",
+                "mangledName": "$s15mobileFramework20WifiConnectionStatusC31ERROR_CONNECTION_REQUEST_FAILEDSivgZ",
+                "moduleName": "mobileFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_LOGIN_REQUEST",
+            "printedName": "ERROR_LOGIN_REQUEST",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC19ERROR_LOGIN_REQUESTSivpZ",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC19ERROR_LOGIN_REQUESTSivpZ",
+            "moduleName": "mobileFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15mobileFramework20WifiConnectionStatusC19ERROR_LOGIN_REQUESTSivgZ",
+                "mangledName": "$s15mobileFramework20WifiConnectionStatusC19ERROR_LOGIN_REQUESTSivgZ",
+                "moduleName": "mobileFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_TIMEOUT",
+            "printedName": "ERROR_TIMEOUT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC13ERROR_TIMEOUTSivpZ",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC13ERROR_TIMEOUTSivpZ",
+            "moduleName": "mobileFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15mobileFramework20WifiConnectionStatusC13ERROR_TIMEOUTSivgZ",
+                "mangledName": "$s15mobileFramework20WifiConnectionStatusC13ERROR_TIMEOUTSivgZ",
+                "moduleName": "mobileFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_NOT_INTERNET_ACCESS",
+            "printedName": "ERROR_NOT_INTERNET_ACCESS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC25ERROR_NOT_INTERNET_ACCESSSivpZ",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC25ERROR_NOT_INTERNET_ACCESSSivpZ",
+            "moduleName": "mobileFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15mobileFramework20WifiConnectionStatusC25ERROR_NOT_INTERNET_ACCESSSivgZ",
+                "mangledName": "$s15mobileFramework20WifiConnectionStatusC25ERROR_NOT_INTERNET_ACCESSSivgZ",
+                "moduleName": "mobileFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_FN_CODE",
+            "printedName": "ERROR_FN_CODE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC13ERROR_FN_CODESivpZ",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC13ERROR_FN_CODESivpZ",
+            "moduleName": "mobileFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15mobileFramework20WifiConnectionStatusC13ERROR_FN_CODESivgZ",
+                "mangledName": "$s15mobileFramework20WifiConnectionStatusC13ERROR_FN_CODESivgZ",
+                "moduleName": "mobileFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:errorCode:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WifiConnectionStatus",
+                "printedName": "mobileFramework.WifiConnectionStatus",
+                "usr": "s:15mobileFramework20WifiConnectionStatusC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC7success9errorCode7messageACSb_SiSStcfc",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC7success9errorCode7messageACSb_SiSStcfc",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WifiConnectionStatus",
+                "printedName": "mobileFramework.WifiConnectionStatus",
+                "usr": "s:15mobileFramework20WifiConnectionStatusC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC7successACSb_tcfc",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC7successACSb_tcfc",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:errorCode:message:httpResponse:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WifiConnectionStatus",
+                "printedName": "mobileFramework.WifiConnectionStatus",
+                "usr": "s:15mobileFramework20WifiConnectionStatusC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPURLResponse",
+                "printedName": "Foundation.HTTPURLResponse",
+                "usr": "c:objc(cs)NSHTTPURLResponse"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC7success9errorCode7message12httpResponseACSb_SiSSSo17NSHTTPURLResponseCtcfc",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC7success9errorCode7message12httpResponseACSb_SiSSSo17NSHTTPURLResponseCtcfc",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:errorCode:message:mac:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WifiConnectionStatus",
+                "printedName": "mobileFramework.WifiConnectionStatus",
+                "usr": "s:15mobileFramework20WifiConnectionStatusC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC7success9errorCode7message3macACSb_SiS2Stcfc",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC7success9errorCode7message3macACSb_SiS2Stcfc",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getSuccess",
+            "printedName": "getSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC10getSuccessSbyF",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC10getSuccessSbyF",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSuccess",
+            "printedName": "setSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC10setSuccessyySbF",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC10setSuccessyySbF",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getErrorCode",
+            "printedName": "getErrorCode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC12getErrorCodeSiyF",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC12getErrorCodeSiyF",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setErrorCode",
+            "printedName": "setErrorCode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC12setErrorCodeyySiF",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC12setErrorCodeyySiF",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMessage",
+            "printedName": "getMessage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC10getMessageSSyF",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC10getMessageSSyF",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMessage",
+            "printedName": "setMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC10setMessageyySSF",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC10setMessageyySSF",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getHttpResponse",
+            "printedName": "getHttpResponse()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.HTTPURLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC15getHttpResponseSo17NSHTTPURLResponseCSgyF",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC15getHttpResponseSo17NSHTTPURLResponseCSgyF",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setHttpResponse",
+            "printedName": "setHttpResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.HTTPURLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC15setHttpResponseyySo17NSHTTPURLResponseCSgF",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC15setHttpResponseyySo17NSHTTPURLResponseCSgF",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMac",
+            "printedName": "getMac()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC6getMacSSyF",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC6getMacSSyF",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMac",
+            "printedName": "setMac(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15mobileFramework20WifiConnectionStatusC6setMacyySSF",
+            "mangledName": "$s15mobileFramework20WifiConnectionStatusC6setMacyySSF",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15mobileFramework20WifiConnectionStatusC",
+        "mangledName": "$s15mobileFramework20WifiConnectionStatusC",
+        "moduleName": "mobileFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WifiRequests",
+        "printedName": "WifiRequests",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WifiRequests",
+                "printedName": "mobileFramework.WifiRequests",
+                "usr": "s:15mobileFramework12WifiRequestsC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15mobileFramework12WifiRequestsCACycfc",
+            "mangledName": "$s15mobileFramework12WifiRequestsCACycfc",
+            "moduleName": "mobileFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15mobileFramework12WifiRequestsC",
+        "mangledName": "$s15mobileFramework12WifiRequestsC",
+        "moduleName": "mobileFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/mobileFramework\/mobileFramework\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 71,
+      "length": 18,
+      "value": "\"\/api\/mobileLogin\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/mobileFramework\/mobileFramework\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 125,
+      "length": 30,
+      "value": "\"https:\/\/n35.network-auth.com\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/mobileFramework\/mobileFramework\/MobileSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 83,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/mobileFramework\/mobileFramework\/MobileSdk.swift",
+      "kind": "FloatLiteral",
+      "offset": 126,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/mobileFramework\/mobileFramework\/WifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/mobileFramework\/mobileFramework\/WifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 312,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/mobileFramework\/mobileFramework\/WifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 367,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/mobileFramework\/mobileFramework\/WifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 414,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/mobileFramework\/mobileFramework\/WifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 472,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/mobileFramework\/mobileFramework\/WifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 518,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/mobileFramework\/mobileFramework\/WifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 558,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/mobileFramework\/mobileFramework\/WifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 610,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/mobileFramework\/mobileFramework\/WifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 650,
+      "length": 1,
+      "value": "8"
+    }
+  ]
+}

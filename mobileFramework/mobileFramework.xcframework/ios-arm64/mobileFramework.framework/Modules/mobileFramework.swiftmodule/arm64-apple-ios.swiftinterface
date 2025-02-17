@@ -1,0 +1,48 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name mobileFramework
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import mobileFramework
+public class MobileSdk {
+  public init()
+  public func getTimeout() -> Swift.Double
+  public func setTimeout(_ value: Swift.Double)
+  public func getRetryInterval() -> Swift.Double
+  public func setRetryInterval(_ value: Swift.Double)
+  public func connectionWifi(countryCode: Swift.String, msisdn: Swift.String, passport: Swift.String, nationalId: Swift.String, marketingPermission: Swift.Bool, shareDataPermission: Swift.Bool, storeDataPermission: Swift.Bool, baseUrl: Swift.String, connectionUrls: [Swift.String], completion: @escaping (mobileFramework.WifiConnectionStatus) -> Swift.Void)
+  @objc deinit
+}
+public class WifiConnectionStatus {
+  public static let ERROR_NONE: Swift.Int
+  public static let ERROR_DATA_EMPTY: Swift.Int
+  public static let ERROR_REDIRECT_URL_INCORRECT: Swift.Int
+  public static let ERROR_NO_REDIRECTION: Swift.Int
+  public static let ERROR_CONNECTION_REQUEST_FAILED: Swift.Int
+  public static let ERROR_LOGIN_REQUEST: Swift.Int
+  public static let ERROR_TIMEOUT: Swift.Int
+  public static let ERROR_NOT_INTERNET_ACCESS: Swift.Int
+  public static let ERROR_FN_CODE: Swift.Int
+  public init(success: Swift.Bool, errorCode: Swift.Int, message: Swift.String)
+  public init(success: Swift.Bool)
+  public init(success: Swift.Bool, errorCode: Swift.Int, message: Swift.String, httpResponse: Foundation.HTTPURLResponse)
+  public init(success: Swift.Bool, errorCode: Swift.Int, message: Swift.String, mac: Swift.String)
+  public func getSuccess() -> Swift.Bool
+  public func setSuccess(_ value: Swift.Bool)
+  public func getErrorCode() -> Swift.Int
+  public func setErrorCode(_ value: Swift.Int)
+  public func getMessage() -> Swift.String
+  public func setMessage(_ value: Swift.String)
+  public func getHttpResponse() -> Foundation.HTTPURLResponse?
+  public func setHttpResponse(_ value: Foundation.HTTPURLResponse?)
+  public func getMac() -> Swift.String
+  public func setMac(_ value: Swift.String)
+  @objc deinit
+}
+public class WifiRequests {
+  public init()
+  @objc deinit
+}

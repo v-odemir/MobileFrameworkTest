@@ -12,6 +12,13 @@
         "moduleName": "EdgeSdk"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EdgeSdk"
+      },
+      {
         "kind": "TypeDecl",
         "name": "FNEdgeSdk",
         "printedName": "FNEdgeSdk",
@@ -345,13 +352,6 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "EdgeSdk"
       },
       {
         "kind": "Import",
@@ -1333,20 +1333,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeSdk.swift",
-      "kind": "IntegerLiteral",
-      "offset": 86,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeSdk.swift",
-      "kind": "FloatLiteral",
-      "offset": 129,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
       "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeConstant.swift",
       "kind": "StringLiteral",
       "offset": 69,
@@ -1366,6 +1352,20 @@
       "offset": 707,
       "length": 18,
       "value": "\"\/api\/mobileLogin\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 86,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeSdk.swift",
+      "kind": "FloatLiteral",
+      "offset": 129,
+      "length": 3,
+      "value": "0.5"
     },
     {
       "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeWifiConnectionStatus.swift",

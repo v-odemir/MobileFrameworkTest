@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/EdgeSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		4mymxd6gY11rfVefxOnR1BfVg+Q=
+		nxEDi1dgJIr8ylTrT1Dmwve2cZM=
 		</data>
 		<key>Modules/EdgeSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/EdgeSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		E+bzKbj5K56+ZZYAWVEibD2O7oQ=
+		J8oQfmIW1ty9MFlK3OSXaeuuyX8=
 		</data>
 		<key>Modules/EdgeSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		4mymxd6gY11rfVefxOnR1BfVg+Q=
+		nxEDi1dgJIr8ylTrT1Dmwve2cZM=
 		</data>
 		<key>Modules/EdgeSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/EdgeSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nEfGhUeCSYDH6WaLwf61O4oV7mU=
+		1QHATIiWfR8zONoksYGRQ0knVNs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -66,7 +66,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bOI8yUgUzDt18NNzHDJ0HNWTN0hn1dG3BGnz9ISfGrI=
+			xyd/2D/lHbXkTgSS6t7daovDCi4HHdwDcb7ExTQRAZo=
 			</data>
 		</dict>
 		<key>Modules/EdgeSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -94,14 +94,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YyUdjfeL9QnBsGa2H+8dsU1iiyK2noNYzmjJo7uE0hs=
+			t9B8EmCL92WZ8dAB115B2t6qz819jw+WKNdmdH82BcY=
 			</data>
 		</dict>
 		<key>Modules/EdgeSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bOI8yUgUzDt18NNzHDJ0HNWTN0hn1dG3BGnz9ISfGrI=
+			xyd/2D/lHbXkTgSS6t7daovDCi4HHdwDcb7ExTQRAZo=
 			</data>
 		</dict>
 		<key>Modules/EdgeSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -129,7 +129,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zX8r58OvY4cjOlLaidw4vm0/h9ZLhW+2Dv0R4d30gVM=
+			uO7V3kt0+MVz6tBP4z1HvpT+yQvsSpZ6M1bf/tszZgc=
 			</data>
 		</dict>
 	</dict>

@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "EdgeSdk",
-            url:"https://github.com/v-odemir/MobileFrameworkTest/releases/download/v1.0.8/EdgeSdk.xcframework.zip",
-            checksum: "2cc8f53dcf5a987540b9f181af49ffaba3046ae252ba70bc34191ee14fde1351"
+            url:"https://github.com/v-odemir/MobileFrameworkTest/releases/download/v1.0.9/EdgeSdk.xcframework.zip",
+            checksum: "ab4672dfba4268acba2a34f0a769c997a4be82c601b5d62615f053ba383c3b4f"
         ),
     ]
 )

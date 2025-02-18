@@ -832,6 +832,57 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "ERROR",
+            "printedName": "ERROR",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC5ERRORSivpZ",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC5ERRORSivpZ",
+            "moduleName": "EdgeSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC5ERRORSivgZ",
+                "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC5ERRORSivgZ",
+                "moduleName": "EdgeSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(success:errorCode:message:)",
@@ -1429,6 +1480,13 @@
       "offset": 656,
       "length": 1,
       "value": "8"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 688,
+      "length": 1,
+      "value": "9"
     }
   ]
 }

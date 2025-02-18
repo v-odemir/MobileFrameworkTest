@@ -29,6 +29,7 @@ public class FNEdgeWifiConnectionStatus {
   public static let ERROR_TIMEOUT: Swift.Int
   public static let ERROR_NOT_INTERNET_ACCESS: Swift.Int
   public static let ERROR_FN_CODE: Swift.Int
+  public static let ERROR: Swift.Int
   public init(success: Swift.Bool, errorCode: Swift.Int, message: Swift.String)
   public init(success: Swift.Bool)
   public init(success: Swift.Bool, errorCode: Swift.Int, message: Swift.String, httpResponse: Foundation.HTTPURLResponse)

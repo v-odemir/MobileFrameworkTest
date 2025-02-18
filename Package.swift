@@ -11,13 +11,13 @@ let package = Package(
     products: [
         .library(
             name: "MobileFrameworkTest",
-            targets: ["mobileFramework"])
+            targets: ["EdgeSdk"])
     ],
     targets: [
         .binaryTarget(
-            name: "mobileFramework",
-            url:"https://github.com/v-odemir/MobileFrameworkTest/releases/download/v1.0.2/mobileFramework.xcframework.zip",
-            checksum: "8fa40dc081ffecc40b6d9076fc4717384186cbebeedcf423f69099029bcbf4f8"
+            name: "EdgeSdk",
+            url:"https://github.com/v-odemir/MobileFrameworkTest/releases/download/v1.0.3/EdgeSdk.xcframework.zip",
+            checksum: "cc6b3999ea06c8d376e2c51fea419ac5039625d5cd492bc3b99fe3aef042a6de"
         ),
     ]
 )

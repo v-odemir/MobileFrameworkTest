@@ -1,0 +1,1331 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "EdgeSdk",
+    "printedName": "EdgeSdk",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EdgeSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FNEdgeSdk",
+        "printedName": "FNEdgeSdk",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FNEdgeSdk",
+                "printedName": "EdgeSdk.FNEdgeSdk",
+                "usr": "s:7EdgeSdk06FNEdgeB0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7EdgeSdk06FNEdgeB0CACycfc",
+            "mangledName": "$s7EdgeSdk06FNEdgeB0CACycfc",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getTimeout",
+            "printedName": "getTimeout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk06FNEdgeB0C10getTimeoutSdyF",
+            "mangledName": "$s7EdgeSdk06FNEdgeB0C10getTimeoutSdyF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTimeout",
+            "printedName": "setTimeout(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk06FNEdgeB0C10setTimeoutyySdF",
+            "mangledName": "$s7EdgeSdk06FNEdgeB0C10setTimeoutyySdF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRetryInterval",
+            "printedName": "getRetryInterval()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk06FNEdgeB0C16getRetryIntervalSdyF",
+            "mangledName": "$s7EdgeSdk06FNEdgeB0C16getRetryIntervalSdyF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRetryInterval",
+            "printedName": "setRetryInterval(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk06FNEdgeB0C16setRetryIntervalyySdF",
+            "mangledName": "$s7EdgeSdk06FNEdgeB0C16setRetryIntervalyySdF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectionWifi",
+            "printedName": "connectionWifi(countryCode:msisdn:passport:nationalId:marketingPermission:shareDataPermission:storeDataPermission:connectionUrls:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EdgeSdk.FNEdgeWifiConnectionStatus) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FNEdgeWifiConnectionStatus",
+                    "printedName": "EdgeSdk.FNEdgeWifiConnectionStatus",
+                    "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk06FNEdgeB0C14connectionWifi11countryCode6msisdn8passport10nationalId19marketingPermission09shareDataM005storeoM00D4Urls10completionySS_S3SS3bSaySSGyAA0cE16ConnectionStatusCctF",
+            "mangledName": "$s7EdgeSdk06FNEdgeB0C14connectionWifi11countryCode6msisdn8passport10nationalId19marketingPermission09shareDataM005storeoM00D4Urls10completionySS_S3SS3bSaySSGyAA0cE16ConnectionStatusCctF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7EdgeSdk06FNEdgeB0C",
+        "mangledName": "$s7EdgeSdk06FNEdgeB0C",
+        "moduleName": "EdgeSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EdgeSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EdgeSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EdgeSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FNEdgeWifiConnectionStatus",
+        "printedName": "FNEdgeWifiConnectionStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ERROR_NONE",
+            "printedName": "ERROR_NONE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC10ERROR_NONESivpZ",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC10ERROR_NONESivpZ",
+            "moduleName": "EdgeSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC10ERROR_NONESivgZ",
+                "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC10ERROR_NONESivgZ",
+                "moduleName": "EdgeSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_DATA_EMPTY",
+            "printedName": "ERROR_DATA_EMPTY",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC16ERROR_DATA_EMPTYSivpZ",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC16ERROR_DATA_EMPTYSivpZ",
+            "moduleName": "EdgeSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC16ERROR_DATA_EMPTYSivgZ",
+                "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC16ERROR_DATA_EMPTYSivgZ",
+                "moduleName": "EdgeSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_REDIRECT_URL_INCORRECT",
+            "printedName": "ERROR_REDIRECT_URL_INCORRECT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC28ERROR_REDIRECT_URL_INCORRECTSivpZ",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC28ERROR_REDIRECT_URL_INCORRECTSivpZ",
+            "moduleName": "EdgeSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC28ERROR_REDIRECT_URL_INCORRECTSivgZ",
+                "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC28ERROR_REDIRECT_URL_INCORRECTSivgZ",
+                "moduleName": "EdgeSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_NO_REDIRECTION",
+            "printedName": "ERROR_NO_REDIRECTION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC20ERROR_NO_REDIRECTIONSivpZ",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC20ERROR_NO_REDIRECTIONSivpZ",
+            "moduleName": "EdgeSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC20ERROR_NO_REDIRECTIONSivgZ",
+                "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC20ERROR_NO_REDIRECTIONSivgZ",
+                "moduleName": "EdgeSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_CONNECTION_REQUEST_FAILED",
+            "printedName": "ERROR_CONNECTION_REQUEST_FAILED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC31ERROR_CONNECTION_REQUEST_FAILEDSivpZ",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC31ERROR_CONNECTION_REQUEST_FAILEDSivpZ",
+            "moduleName": "EdgeSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC31ERROR_CONNECTION_REQUEST_FAILEDSivgZ",
+                "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC31ERROR_CONNECTION_REQUEST_FAILEDSivgZ",
+                "moduleName": "EdgeSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_LOGIN_REQUEST",
+            "printedName": "ERROR_LOGIN_REQUEST",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC19ERROR_LOGIN_REQUESTSivpZ",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC19ERROR_LOGIN_REQUESTSivpZ",
+            "moduleName": "EdgeSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC19ERROR_LOGIN_REQUESTSivgZ",
+                "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC19ERROR_LOGIN_REQUESTSivgZ",
+                "moduleName": "EdgeSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_TIMEOUT",
+            "printedName": "ERROR_TIMEOUT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC13ERROR_TIMEOUTSivpZ",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC13ERROR_TIMEOUTSivpZ",
+            "moduleName": "EdgeSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC13ERROR_TIMEOUTSivgZ",
+                "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC13ERROR_TIMEOUTSivgZ",
+                "moduleName": "EdgeSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_NOT_INTERNET_ACCESS",
+            "printedName": "ERROR_NOT_INTERNET_ACCESS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC25ERROR_NOT_INTERNET_ACCESSSivpZ",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC25ERROR_NOT_INTERNET_ACCESSSivpZ",
+            "moduleName": "EdgeSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC25ERROR_NOT_INTERNET_ACCESSSivgZ",
+                "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC25ERROR_NOT_INTERNET_ACCESSSivgZ",
+                "moduleName": "EdgeSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_FN_CODE",
+            "printedName": "ERROR_FN_CODE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC13ERROR_FN_CODESivpZ",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC13ERROR_FN_CODESivpZ",
+            "moduleName": "EdgeSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC13ERROR_FN_CODESivgZ",
+                "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC13ERROR_FN_CODESivgZ",
+                "moduleName": "EdgeSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:errorCode:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FNEdgeWifiConnectionStatus",
+                "printedName": "EdgeSdk.FNEdgeWifiConnectionStatus",
+                "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC7success9errorCode7messageACSb_SiSStcfc",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC7success9errorCode7messageACSb_SiSStcfc",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FNEdgeWifiConnectionStatus",
+                "printedName": "EdgeSdk.FNEdgeWifiConnectionStatus",
+                "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC7successACSb_tcfc",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC7successACSb_tcfc",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:errorCode:message:httpResponse:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FNEdgeWifiConnectionStatus",
+                "printedName": "EdgeSdk.FNEdgeWifiConnectionStatus",
+                "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPURLResponse",
+                "printedName": "Foundation.HTTPURLResponse",
+                "usr": "c:objc(cs)NSHTTPURLResponse"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC7success9errorCode7message12httpResponseACSb_SiSSSo17NSHTTPURLResponseCtcfc",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC7success9errorCode7message12httpResponseACSb_SiSSSo17NSHTTPURLResponseCtcfc",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:errorCode:message:mac:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FNEdgeWifiConnectionStatus",
+                "printedName": "EdgeSdk.FNEdgeWifiConnectionStatus",
+                "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC7success9errorCode7message3macACSb_SiS2Stcfc",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC7success9errorCode7message3macACSb_SiS2Stcfc",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getSuccess",
+            "printedName": "getSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC10getSuccessSbyF",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC10getSuccessSbyF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSuccess",
+            "printedName": "setSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC10setSuccessyySbF",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC10setSuccessyySbF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getErrorCode",
+            "printedName": "getErrorCode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC12getErrorCodeSiyF",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC12getErrorCodeSiyF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setErrorCode",
+            "printedName": "setErrorCode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC12setErrorCodeyySiF",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC12setErrorCodeyySiF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMessage",
+            "printedName": "getMessage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC10getMessageSSyF",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC10getMessageSSyF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMessage",
+            "printedName": "setMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC10setMessageyySSF",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC10setMessageyySSF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getHttpResponse",
+            "printedName": "getHttpResponse()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.HTTPURLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC15getHttpResponseSo17NSHTTPURLResponseCSgyF",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC15getHttpResponseSo17NSHTTPURLResponseCSgyF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setHttpResponse",
+            "printedName": "setHttpResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.HTTPURLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC15setHttpResponseyySo17NSHTTPURLResponseCSgF",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC15setHttpResponseyySo17NSHTTPURLResponseCSgF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMac",
+            "printedName": "getMac()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC6getMacSSyF",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC6getMacSSyF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMac",
+            "printedName": "setMac(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC6setMacyySSF",
+            "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC6setMacyySSF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7EdgeSdk26FNEdgeWifiConnectionStatusC",
+        "mangledName": "$s7EdgeSdk26FNEdgeWifiConnectionStatusC",
+        "moduleName": "EdgeSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EdgeSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FNEdgeWifiRequests",
+        "printedName": "FNEdgeWifiRequests",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FNEdgeWifiRequests",
+                "printedName": "EdgeSdk.FNEdgeWifiRequests",
+                "usr": "s:7EdgeSdk18FNEdgeWifiRequestsC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7EdgeSdk18FNEdgeWifiRequestsCACycfc",
+            "mangledName": "$s7EdgeSdk18FNEdgeWifiRequestsCACycfc",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7EdgeSdk18FNEdgeWifiRequestsC",
+        "mangledName": "$s7EdgeSdk18FNEdgeWifiRequestsC",
+        "moduleName": "EdgeSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EdgeSdk"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 83,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeSdk.swift",
+      "kind": "FloatLiteral",
+      "offset": 126,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 77,
+      "length": 18,
+      "value": "\"\/api\/mobileLogin\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 131,
+      "length": 30,
+      "value": "\"https:\/\/n35.network-auth.com\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 275,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 373,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 420,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 478,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 524,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 616,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 656,
+      "length": 1,
+      "value": "8"
+    }
+  ]
+}

@@ -1,6 +1,0 @@
-framework module mobileFramework {
-  umbrella header "mobileFramework.h"
-  export *
-
-  module * { export * }
-}

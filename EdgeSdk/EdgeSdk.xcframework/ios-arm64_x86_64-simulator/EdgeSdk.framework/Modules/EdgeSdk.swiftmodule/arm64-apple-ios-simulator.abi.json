@@ -39,19 +39,19 @@
           },
           {
             "kind": "Function",
-            "name": "getTimeout",
-            "printedName": "getTimeout()",
+            "name": "getMaxRetryCount",
+            "printedName": "getMaxRetryCount()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7EdgeSdk06FNEdgeB0C10getTimeoutSdyF",
-            "mangledName": "$s7EdgeSdk06FNEdgeB0C10getTimeoutSdyF",
+            "usr": "s:7EdgeSdk06FNEdgeB0C16getMaxRetryCountSiyF",
+            "mangledName": "$s7EdgeSdk06FNEdgeB0C16getMaxRetryCountSiyF",
             "moduleName": "EdgeSdk",
             "declAttributes": [
               "AccessControl"
@@ -60,8 +60,8 @@
           },
           {
             "kind": "Function",
-            "name": "setTimeout",
-            "printedName": "setTimeout(_:)",
+            "name": "setMaxRetryCount",
+            "printedName": "setMaxRetryCount(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -70,14 +70,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7EdgeSdk06FNEdgeB0C10setTimeoutyySdF",
-            "mangledName": "$s7EdgeSdk06FNEdgeB0C10setTimeoutyySdF",
+            "usr": "s:7EdgeSdk06FNEdgeB0C16setMaxRetryCountyySiF",
+            "mangledName": "$s7EdgeSdk06FNEdgeB0C16setMaxRetryCountyySiF",
             "moduleName": "EdgeSdk",
             "declAttributes": [
               "AccessControl"
@@ -1239,14 +1239,14 @@
     {
       "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 83,
+      "offset": 86,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeSdk.swift",
       "kind": "FloatLiteral",
-      "offset": 126,
+      "offset": 129,
       "length": 3,
       "value": "0.5"
     },

@@ -133,8 +133,118 @@
           },
           {
             "kind": "Function",
+            "name": "getBaseUrl",
+            "printedName": "getBaseUrl()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk06FNEdgeB0C10getBaseUrlSSyF",
+            "mangledName": "$s7EdgeSdk06FNEdgeB0C10getBaseUrlSSyF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBaseUrl",
+            "printedName": "setBaseUrl(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk06FNEdgeB0C10setBaseUrlyySSF",
+            "mangledName": "$s7EdgeSdk06FNEdgeB0C10setBaseUrlyySSF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConnectionUrls",
+            "printedName": "getConnectionUrls()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk06FNEdgeB0C17getConnectionUrlsSaySSGyF",
+            "mangledName": "$s7EdgeSdk06FNEdgeB0C17getConnectionUrlsSaySSGyF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setConnectionUrls",
+            "printedName": "setConnectionUrls(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7EdgeSdk06FNEdgeB0C17setConnectionUrlsyySaySSGF",
+            "mangledName": "$s7EdgeSdk06FNEdgeB0C17setConnectionUrlsyySaySSGF",
+            "moduleName": "EdgeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "connectionWifi",
-            "printedName": "connectionWifi(countryCode:msisdn:passport:nationalId:marketingPermission:shareDataPermission:storeDataPermission:connectionUrls:completion:)",
+            "printedName": "connectionWifi(countryCode:msisdn:passport:nationalId:marketingPermission:shareDataPermission:storeDataPermission:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -184,20 +294,6 @@
                 "usr": "s:Sb"
               },
               {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(EdgeSdk.FNEdgeWifiConnectionStatus) -> ()",
@@ -217,8 +313,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7EdgeSdk06FNEdgeB0C14connectionWifi11countryCode6msisdn8passport10nationalId19marketingPermission09shareDataM005storeoM00D4Urls10completionySS_S3SS3bSaySSGyAA0cE16ConnectionStatusCctF",
-            "mangledName": "$s7EdgeSdk06FNEdgeB0C14connectionWifi11countryCode6msisdn8passport10nationalId19marketingPermission09shareDataM005storeoM00D4Urls10completionySS_S3SS3bSaySSGyAA0cE16ConnectionStatusCctF",
+            "usr": "s:7EdgeSdk06FNEdgeB0C14connectionWifi11countryCode6msisdn8passport10nationalId19marketingPermission09shareDataM005storeoM010completionySS_S3SS3byAA0cE16ConnectionStatusCctF",
+            "mangledName": "$s7EdgeSdk06FNEdgeB0C14connectionWifi11countryCode6msisdn8passport10nationalId19marketingPermission09shareDataM005storeoM010completionySS_S3SS3byAA0cE16ConnectionStatusCctF",
             "moduleName": "EdgeSdk",
             "declAttributes": [
               "AccessControl"
@@ -1253,16 +1349,23 @@
     {
       "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeConstant.swift",
       "kind": "StringLiteral",
-      "offset": 77,
-      "length": 18,
-      "value": "\"\/api\/mobileLogin\""
+      "offset": 69,
+      "length": 48,
+      "value": "\"http:\/\/example.com\/?cmd=redirect&arubalp=12345\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeConstant.swift",
+      "kind": "Array",
+      "offset": 151,
+      "length": 521,
+      "value": "[\"https:\/\/smartgate-r4.faraday.net\/\", \"https:\/\/smartgate-r5.faraday.net\/\", \"https:\/\/login.wi-fi.etisalat.ae\/\", \"https:\/\/twifi-ocsgate.superonline.net\/\", \"https:\/\/twifi-sgate-external.superonline.net\/\", \"https:\/\/edge-guest.kktcell.com\/\", \"https:\/\/vdf.redwifi.vodafone.net.tr\/\", \"https:\/\/smartgate-dev.faradaynetworks.com\/\", \"https:\/\/smartgate-stgocp.faradaynetworks.com\/\", \"http:\/\/smartgate-onprem.faradaynetworks.com\/\"]"
     },
     {
       "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeConstant.swift",
       "kind": "StringLiteral",
-      "offset": 131,
-      "length": 30,
-      "value": "\"https:\/\/n35.network-auth.com\""
+      "offset": 707,
+      "length": 18,
+      "value": "\"\/api\/mobileLogin\""
     },
     {
       "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeWifiConnectionStatus.swift",

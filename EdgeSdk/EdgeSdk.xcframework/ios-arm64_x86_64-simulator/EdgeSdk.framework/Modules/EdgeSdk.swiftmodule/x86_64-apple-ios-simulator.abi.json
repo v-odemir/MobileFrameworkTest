@@ -1426,10 +1426,10 @@
     },
     {
       "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 83,
-      "length": 1,
-      "value": "8"
+      "kind": "StringLiteral",
+      "offset": 89,
+      "length": 3,
+      "value": "\"F\""
     },
     {
       "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeWifiConnectionStatus.swift",

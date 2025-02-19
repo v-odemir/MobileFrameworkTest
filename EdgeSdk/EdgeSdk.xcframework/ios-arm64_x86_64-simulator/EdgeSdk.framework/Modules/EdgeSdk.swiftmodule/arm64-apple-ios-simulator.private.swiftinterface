@@ -16,7 +16,7 @@ public class FNEdgeSdk {
   public func setBaseUrl(_ value: Swift.String)
   public func getConnectionUrls() -> [Swift.String]
   public func setConnectionUrls(_ value: [Swift.String])
-  public func connectionWifi(countryCode: Swift.String, msisdn: Swift.String, passport: Swift.String, nationalId: Swift.String, marketingPermission: Swift.Bool, shareDataPermission: Swift.Bool, storeDataPermission: Swift.Bool, completion: @escaping (EdgeSdk.FNEdgeWifiConnectionStatus) -> Swift.Void)
+  public func connectionWifi(deeplinkUrl: Swift.String, countryCode: Swift.String, msisdn: Swift.String, passport: Swift.String, nationalId: Swift.String, marketingPermission: Swift.Bool, shareDataPermission: Swift.Bool, storeDataPermission: Swift.Bool, completion: @escaping (EdgeSdk.FNEdgeWifiConnectionStatus) -> Swift.Void)
   @objc deinit
 }
 public class FNEdgeWifiConnectionStatus {

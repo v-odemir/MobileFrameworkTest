@@ -251,12 +251,18 @@
           {
             "kind": "Function",
             "name": "connectionWifi",
-            "printedName": "connectionWifi(countryCode:msisdn:passport:nationalId:marketingPermission:shareDataPermission:storeDataPermission:completion:)",
+            "printedName": "connectionWifi(deeplinkUrl:countryCode:msisdn:passport:nationalId:marketingPermission:shareDataPermission:storeDataPermission:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -320,8 +326,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7EdgeSdk06FNEdgeB0C14connectionWifi11countryCode6msisdn8passport10nationalId19marketingPermission09shareDataM005storeoM010completionySS_S3SS3byAA0cE16ConnectionStatusCctF",
-            "mangledName": "$s7EdgeSdk06FNEdgeB0C14connectionWifi11countryCode6msisdn8passport10nationalId19marketingPermission09shareDataM005storeoM010completionySS_S3SS3byAA0cE16ConnectionStatusCctF",
+            "usr": "s:7EdgeSdk06FNEdgeB0C14connectionWifi11deeplinkUrl11countryCode6msisdn8passport10nationalId19marketingPermission09shareDataO005storeqO010completionySS_S4SS3byAA0cE16ConnectionStatusCctF",
+            "mangledName": "$s7EdgeSdk06FNEdgeB0C14connectionWifi11deeplinkUrl11countryCode6msisdn8passport10nationalId19marketingPermission09shareDataO005storeqO010completionySS_S4SS3byAA0cE16ConnectionStatusCctF",
             "moduleName": "EdgeSdk",
             "declAttributes": [
               "AccessControl"
@@ -1417,6 +1423,13 @@
       "offset": 129,
       "length": 3,
       "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 83,
+      "length": 1,
+      "value": "8"
     },
     {
       "filePath": "\/Users\/odemir\/Desktop\/faraday\/EdgeSdk\/EdgeSdk\/FNEdgeWifiConnectionStatus.swift",

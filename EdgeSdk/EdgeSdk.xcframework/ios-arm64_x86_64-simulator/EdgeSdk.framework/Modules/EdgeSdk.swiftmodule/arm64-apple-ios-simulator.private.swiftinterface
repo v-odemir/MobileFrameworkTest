@@ -23,13 +23,13 @@ public class FNEdgeWifiConnectionStatus {
   public static let ERROR_NONE: Swift.Int
   public static let ERROR_DATA_EMPTY: Swift.Int
   public static let ERROR_REDIRECT_URL_INCORRECT: Swift.Int
-  public static let ERROR_NO_REDIRECTION: Swift.Int
-  public static let ERROR_CONNECTION_REQUEST_FAILED: Swift.Int
   public static let ERROR_LOGIN_REQUEST: Swift.Int
-  public static let ERROR_TIMEOUT: Swift.Int
-  public static let ERROR_NOT_INTERNET_ACCESS: Swift.Int
+  public static let ERROR_EXCEPTION: Swift.Int
+  public static let ERROR_MAX_RETRIES_REACHED: Swift.Int
+  public static let ERROR_EDGE_EXCEPTION: Swift.Int
+  public static let ERROR_CONFIGURATION: Swift.Int
+  public static let ERROR_GENERAL: Swift.Int
   public static let ERROR_FN_CODE: Swift.Int
-  public static let ERROR: Swift.Int
   public init(success: Swift.Bool, errorCode: Swift.Int, message: Swift.String)
   public init(success: Swift.Bool)
   public init(success: Swift.Bool, errorCode: Swift.Int, message: Swift.String, httpResponse: Foundation.HTTPURLResponse)
